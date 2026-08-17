@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
+import bckImage from "./assets/images/bck.png";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Landing/Home";
 
 function App() {
-  return (
-    <div className="text-[100px] flex items-center justify-center font-bold ">
-      <h1>
-        Start proje
-      </h1>
-      
-      
-    </div>
-  )
+  return <div>
+    
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+    </Routes>
+  </div>;
 }
 
-export default App
+export default App;
