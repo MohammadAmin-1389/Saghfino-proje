@@ -1,6 +1,6 @@
 import React from "react";
-import LogoImage from "../../assets/images/Logo.png";
-import bckImage from "../../assets/images/bck.png";
+import LogoImage from "./../assets/images/Logo.png";
+import bckImage from "./../assets/images/bck.png";
 
 function Navbar() {
   return (
