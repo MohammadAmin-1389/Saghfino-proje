@@ -8,7 +8,7 @@ function Navbar() {
       className="bg-cover bg-center w-full h-172.5 flex-col flex items-center gap-25"
       style={{ backgroundImage: `url(${bckImage})` }}
     >
-      <div className="w-306 mt-12.5 h-28.75 rounded-2xl bg-[#F9F9F9] flex items-center px-8">
+      <div className="w-306 mt-12.5 h-28.75 rounded-2xl bg-[#F9F9F9] flex items-center px-[55px]">
         <div className="flex items-center gap-8.75">
           <div className="flex items-center justify-center border rounded-lg w-25.5 h-12 border-[#CB1B1B]">
             <h3 className="text-[14px] text-[#CB1B1B] font-medium">ثبت آگهی</h3>
@@ -58,7 +58,7 @@ function Navbar() {
         </div>
       </div>
       <div className="w-204 h-27 bg-[#FFFFFF] rounded-xl">
-        <div className="flex items-center  justify-around">
+        <div className="flex items-center  justify-between">
           <div className="w-94.75 flex  justify-center h-10 pt-4">
             <h3 className="text-[24px] font-medium text-[#353535]">خرید</h3>
           </div>

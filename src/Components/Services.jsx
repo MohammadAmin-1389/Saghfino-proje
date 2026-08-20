@@ -13,7 +13,7 @@ function Services() {
           </h2>
         </div>
 
-        <div className="flex justify-around mt-7">
+        <div className="flex justify-between mt-7">
           <div className="w-[392px] h-[511px] flex-col flex items-center bg-[#F9F9F9] rounded-[16px]">
             <div className="flex items-center justify-center">
               <img src={card3Image} />
