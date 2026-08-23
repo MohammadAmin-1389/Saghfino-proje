@@ -8,7 +8,7 @@ function Navbar() {
       className="bg-cover bg-center w-full h-172.5 flex-col flex items-center gap-25"
       style={{ backgroundImage: `url(${bckImage})` }}
     >
-      <div className="w-306 mt-12.5 h-28.75 rounded-2xl bg-[#F9F9F9] flex items-center px-[55px]">
+      <div className="w-306 mt-12.5 h-28.75  rounded-2xl bg-[#F9F9F9] flex items-center px-10">
         <div className="flex items-center gap-8.75">
           <div className="flex items-center justify-center border rounded-lg w-25.5 h-12 border-[#CB1B1B]">
             <h3 className="text-[14px] text-[#CB1B1B] font-medium">ثبت آگهی</h3>
@@ -58,19 +58,26 @@ function Navbar() {
         </div>
       </div>
       <div className="w-204 h-27 bg-[#FFFFFF] rounded-xl">
-        <div className="flex items-center  justify-between">
-          <div className="w-94.75 flex  justify-center h-10 pt-4">
+        {/* خرید / اجاره */}
+        <div className="w-full h-10 flex items-center justify-between">
+          <div className="w-94.75 h-10 flex items-center justify-center pt-4">
             <h3 className="text-[24px] font-medium text-[#353535]">خرید</h3>
           </div>
 
-          <div className="w-94.75 flex justify-center h-10 pt-4">
+          <div className="w-94.75 h-10 flex items-center justify-center pt-4">
             <h3 className="text-[24px] font-medium text-[#353535]">اجاره</h3>
           </div>
         </div>
 
-        <div className="relative w-full">
-          <div className="absolute right-2.5 flex pt-6 text-[18px]">
-            <p className="flex">
+        {/* خط جداکننده */}
+        <div className="w-full flex justify-center mt-3">
+          <div className="w-[90%] h-px bg-[#D9D9D9]"></div>
+        </div>
+
+        {/* سرچ */}
+        <div className="relative w-full h-full">
+          <div className="absolute right-2.5 top-0 flex items-center pt-6 text-[18px]">
+            <p className="flex items-center gap-2 text-[#353535]">
               شهر مورد نطر را جستجو کنید
               <svg
                 width="24"

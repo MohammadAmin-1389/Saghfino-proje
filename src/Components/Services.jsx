@@ -13,12 +13,12 @@ function Services() {
           </h2>
         </div>
 
-        <div className="flex justify-between mt-7">
+        <div className="flex justify-center gap-5 mt-7">
           <div className="w-98 h-127.75 flex-col flex items-center bg-[#F9F9F9] rounded-2xl">
             <div className="flex items-center justify-center">
               <img src={card3Image} />
             </div>
-            <div className="flex-col flex justify-center items-center">
+            <div className="flex-col  flex justify-center items-center">
               <div className="w-82 h-7 mt-5 flex items-center justify-center">
                 <h3 className="text-[20px] font-bold text-[#353535] ">
                   به آسانی یک خانه اجاره کنید
@@ -90,7 +90,7 @@ function Services() {
             </div>
           </div>
 
-          <div></div>
+         
         </div>
       </div>
     </div>

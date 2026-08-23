@@ -7,8 +7,10 @@ function Home() {
   return (
     <div>
       <Navbar />
+      <div className="px-10">
       <Services />
       <Classes />
+      </div>
     </div>
   );
 }
