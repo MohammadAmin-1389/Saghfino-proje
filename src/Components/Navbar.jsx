@@ -58,7 +58,6 @@ function Navbar() {
         </div>
       </div>
       <div className="w-204 h-27 bg-[#FFFFFF] rounded-xl">
-        {/* خرید / اجاره */}
         <div className="w-full h-10 flex items-center justify-between">
           <div className="w-94.75 h-10 flex items-center justify-center pt-4">
             <h3 className="text-[24px] font-medium text-[#353535]">خرید</h3>
@@ -69,12 +68,10 @@ function Navbar() {
           </div>
         </div>
 
-        {/* خط جداکننده */}
         <div className="w-full flex justify-center mt-3">
           <div className="w-[90%] h-px bg-[#D9D9D9]"></div>
         </div>
 
-        {/* سرچ */}
         <div className="relative w-full h-full">
           <div className="absolute right-2.5 top-0 flex items-center pt-6 text-[18px]">
             <p className="flex items-center gap-2 text-[#353535]">
